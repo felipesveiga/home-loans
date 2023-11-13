@@ -1,3 +1,4 @@
 doc/
-project/data/
+project/data/*.csv*
 home-credit-default-risk.zip
+.ipynb_checkpoints/

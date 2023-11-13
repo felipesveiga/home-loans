@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Previsor de Pagamentos de Empréstimos Imobiliários</title>
+</head>
+<body>
+	<div>
+		<h1>Previsor de Pagamentos de Empréstimos Imobiliários</h1>
+		<h2>Por favor, insira o ID do cliente</h2>
+	</div>
+	<div>
+		<form id = 'application' action = '/predict' method = 'POST'>
+			<br>
+			    <label for = 'SK_ID_CURR'> ID Cliente</label>
+            <br>
+			<input name = 'SK_ID_CURR' type = 'number' max = 456255 min = 100001 step = 1 class = 'application-input' placeholder="SK_ID_CURR" value = 100001><br>
+			<input type = 'submit' value = 'Prever'>
+		</form>
+	</div>
+</body>
+</html>
