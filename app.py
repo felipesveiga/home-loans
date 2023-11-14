@@ -14,6 +14,13 @@ class ModelPredict:
         '''
             Classe com a qual invocaremos o modelo do projeto para fazermos as previsões.
 
+            Parâmetros
+            ----------
+            `files_directory`: str
+                Diretório onde se encontram as bases de clientes.
+            `model_path`: str
+                Caminho do modelo do projeto.
+            
             Função
             -------
             `model_predict`: Aciona o modelo e salva os dados da previsão em uma base .parquet.
